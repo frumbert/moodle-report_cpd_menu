@@ -8,8 +8,8 @@ Moodle 2.2+
 
 How to install
 
-- Unzip the package
-- Drop the 'moodle-report_cpd' folder into /reports
+- Unzip the package to /moodle/reports/cpd (version.php etc should be in this folder, not a sub-folder)
+- Launch Moodle and upgrade as requried.
 - Launch Moodle and click on Site Admin/Notifications
 
 Setting up the report fields
