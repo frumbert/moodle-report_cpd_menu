@@ -1,16 +1,17 @@
 Description
 
-Use Moodle to record and report on your employees' CPD activities. Staff are able to record their own CPD activity in the system, tracking type of activity, learning objectives, time spent and more. Learning or HR managers can set up customised CPD years and activity types, and view their employee's CPD Reports. The CPD Report 
+Use Moodle to record and report on your employees' CPD activities. Staff are able to record their own CPD activity in the system, tracking type of activity, learning objectives, time spent and more. Learning or HR managers can set up customised CPD years and activity types, and view their employee's CPD Reports.
 
 Compatibility
 
-Moodle 1.9.3 to 1.9.7
+Moodle 2.2
 
 How to install
 
 - Unzip the package
 - Drop the 'cpd' folder into admin/reports
-- Launch Moodle and click on Site Admin/Notifications
+- Launch Moodle, login as admin to upgrade or instal the package as required
+- Click on Site Admin/Notifications
 
 Setting up the report fields
 
@@ -51,9 +52,3 @@ Click on one or more of the following fields and then click on View:
 - Filter by date range - Tick this box to enable the 'Date from' and 'Date to' fields which allow you to select a range of dates spanning multiple CPD Years.
 - Activity Type - Select an activity type to filter the results for certain activities, e.g. list all conference activities that users recorded.
 - User - Select a specific user and view their CPD report.
-
-How to get involved in developing and improving our open source components
-
-We are keen to involve our customers and open source community members in the continued improvement of our open source product extensions.
-
-If you have any feedback or suggestions then please email us at info@kineoopensource.com
