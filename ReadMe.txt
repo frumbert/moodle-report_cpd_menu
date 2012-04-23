@@ -4,12 +4,12 @@ Use Moodle to record and report on your employees' CPD activities. Staff are abl
 
 Compatibility
 
-Moodle 1.9.3 to 1.9.7
+Moodle 2.2+
 
 How to install
 
 - Unzip the package
-- Drop the 'cpd' folder into admin/reports
+- Drop the 'moodle-report_cpd' folder into /reports
 - Launch Moodle and click on Site Admin/Notifications
 
 Setting up the report fields
@@ -20,7 +20,7 @@ Please do not delete 'Objective Met' as when the status is changed to 'Objective
 
 User instructions
 
-The CPD Report menu item exists on the Site Administration menu for all users.
+The CPD Report menu item exists on the User Profile menu for all users (formerly Site Administration).
 User is able to select the year they wish to view their CPD log for and update the year's log for themselves.
 Select CPD Year and click Add Activity
 The following fields can be added:
@@ -41,6 +41,7 @@ beneath the list of activities the user is able to:
 
 - Print the report. This opens the report in a new window, formatted for printing, with a date and signature field at the end for the user to fill in. This can be presented to their manager as a formal record of the annual CPD activity.
 - Export as CSV. This opens the reprot as a CSV file in your chosen spreadsheet application, each activity on a new row and with a date and signature field at the end for the user to fill in. This can also be presented to their manager as a formal record of the annual CPD activity and stored offline.
+- (The data can also be collected automtically by an external serivce layer)
 
 Viewing the administrator report
 
@@ -52,8 +53,4 @@ Click on one or more of the following fields and then click on View:
 - Activity Type - Select an activity type to filter the results for certain activities, e.g. list all conference activities that users recorded.
 - User - Select a specific user and view their CPD report.
 
-How to get involved in developing and improving our open source components
-
-We are keen to involve our customers and open source community members in the continued improvement of our open source product extensions.
-
-If you have any feedback or suggestions then please email us at info@kineoopensource.com
+Information about the users CPD status will also be made available through a web service.
