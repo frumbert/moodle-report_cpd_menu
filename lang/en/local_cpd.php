@@ -13,17 +13,15 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with CPD Report for Moodle.  If not, see <http://www.gnu.org/licenses/>.
- 
- 
-/**
- * Defines the version of this CPD Report
- *
- * @package   local-cpd                                               
- * @copyright 2010 Kineo open Source                                         
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
 
+$string["pluginname"] = "CPD Navigation Menu";
 
-$plugin->version  = 2012042300;
-$plugin->requires = 2010000000;  // Requires this Moodle version
-?>
+$string["cpdactivities"] = "CPD"; // root menu item
+$string["cpduserview"] =  "View/Edit Activities";
+$string["cpdadminview"] = "Development Report";
+$string["cpdsuperadminview"] = "Settings";
+
+// used by admin pages for some reason
+$string['cpd:superadminview'] = 'Settings';
+$string['cpd:adminview'] = 'Development Report';
+$string['cpd:userview'] = 'View/Edit Activities'; 

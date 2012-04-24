@@ -18,11 +18,11 @@
 /**
  * Sets the access capabilities for the CPD Report
  *
- * @package   admin-report-cpd                                               
+ * @package   local-cpd                                               
  * @copyright 2010 Kineo open Source                                         
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
+ 
 $capabilities = array(
     'report/cpd:userview' => array(
         'captype'      => 'write',
