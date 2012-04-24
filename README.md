@@ -6,8 +6,8 @@ Companion plugin to moodle-report_cpd; this puts a new CPD Activity menu on the 
 Requires:
 ---------
 
-Moodle 2.2
-moodle-report_cpd, located here: https://github.com/frumbert/moodle-report_cpd
+- Moodle 2.2
+- Moodle-report_cpd, located here: https://github.com/frumbert/moodle-report_cpd
 
 Installation:
 -------------
@@ -31,6 +31,8 @@ To allow authenticated user permissions to see the CPD Activity page from where 
 Now all authenticated users will be able to view and add their CPD activities.
 
 License:
+--------
+
 The Unlicense (http://unlicense.org)
 
 This is free and unencumbered software released into the public domain.
